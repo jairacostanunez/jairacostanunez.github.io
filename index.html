@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es" class="no-js" xmlns="http://www.w3.org/1999/xhtml" >
 <head>
 
 <!--Plantilla para OVA - Curso: Diseño de sitios web - Actividad 2 - UNAD-->
 
 <meta charset="utf-8">
-<meta name="keywords" content="HTML5, CSS3, JavaScript">
+<meta content="jair acosta" name="author">
+<meta content="plantilla para OVA" name="description">
+<meta content="ova" name="keywords">
 <title>Objeto Virtual de Aprendizaje</title>
-<link href="estilos.css" rel="stylesheet" type="text/css" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+<link href="css/normalize.css" rel="stylesheet" type="text/css" />
+
+
 </head>
 
+<!--Aquí comienza la página-->
+
 <body>
+
 <div id="contenedor">
   
   <!--Este es el banner-->
@@ -22,7 +30,15 @@
   
   <!--Este es el menu de navegacion-->
 
-  <div id="barra_navegacion"><span class="boton"><a href="index.html">Inicio</a></span> <span class="boton">Lecturas</span> <span class="boton">Multimedia</span> <span class="boton">Actividades</span> <span class="boton">Autores</span></div>
+  <div id="barra_navegacion">
+    
+    <div class="boton"><a href="index.html">Inicio</a></div> 
+    <div class="boton">Lecturas</div> 
+    <div class="boton">Multimedia</div> 
+    <div class="boton">Actividades</div> 
+    <div class="boton">Autores</div>
+    
+  </div>
   
   <!--Este es el epacio para el OVA-->
 
@@ -39,13 +55,19 @@
   <div id="pie">
     <div id="logo_pie"><img src="imag/logo_unad_pie.png" width="166" height="42" alt=""/></div>
     <div id="espacio_texto_pie">
-      <p>Programa: Ingeniería de Sistemas – I Semestre<br />
+        Programa: Ingeniería de Sistemas – I Semestre<br />
         Curso: Diseño de sitios web – Grupo: 301122_3<br />
         Diseño Web: Jair de Jesús Acosta Núñez<br />
-        Email: jairacostanunez@hotmail.com</p>
+        Email: jairacostanunez@hotmail.com
     </div>
-    <div id="sellos_calidad"></div>
   </div>
 </div>
 </body>
+
+ <!--librerias de javascript-->
+
+<script type="js/modernizr.js"></script>
+<script type="js/prefixfree.min.js"></script>
+<script type="js/jquery-3.1.1.js"></script>
+
 </html>
