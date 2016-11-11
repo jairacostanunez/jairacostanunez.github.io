@@ -138,8 +138,8 @@ float:left;
 #contenido_derecho{
 width:220px;
 height:auto;
-margin-left:auto;
-margin-right:10px;
+margin-left:10px;
+margin-right:auto;
 padding:0;
 background-color:#FFFFFF;
 float:right;
