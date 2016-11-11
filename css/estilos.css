@@ -124,6 +124,29 @@ padding:20px;
 background-color:#FFFFFF;
 border:3px solid #808080;
 }
+
+#contenido_izquierda{
+width:120px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+padding:10px;
+background-color:#FFFFFF;
+border:1px solid #808080;
+float:left;
+}
+
+#contenido_derecha{
+width:740px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+padding:20px;
+background-color:#FFFFFF;
+border:0;
+float:right;
+}
 	
 	.titulo_contenido{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
